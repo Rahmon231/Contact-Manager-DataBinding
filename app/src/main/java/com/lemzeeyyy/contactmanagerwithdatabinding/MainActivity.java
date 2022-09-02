@@ -9,6 +9,8 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
+    private ContactAppDatabase contactAppDatabase;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
