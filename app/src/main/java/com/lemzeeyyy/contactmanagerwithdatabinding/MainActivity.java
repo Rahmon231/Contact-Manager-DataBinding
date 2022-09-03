@@ -44,7 +44,10 @@ public class MainActivity extends AppCompatActivity {
         activityMainBinding.setClickHandler(handlers);
 
         //Recyclerview
-        recyclerView = findViewById(R.id.recycler_view);
+       // recyclerView = findViewById(R.id.recycler_view);
+
+        RecyclerView recyclerView = activityMainBinding.recyclerView;
+
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setHasFixedSize(true);
 
